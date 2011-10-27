@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/zayac/.wmii'
+let g:netrw_dirhist_2='/home/zayac/code/qemu-arm/qemu/pc-bios'
+let g:netrw_dirhist_3='/home/zayac/code/qemu-arm/qemu/target-arm'
+let g:netrw_dirhist_4='/home/zayac/code/EqCode/src/historical'
+let g:netrw_dirhist_5='/home/zayac/.config/openbox'
+let g:netrw_dirhist_6='/home/zayac/code/EqCode/cmake'
+let g:netrw_dirhist_7='/home/zayac/code/eq/EqCode/tests'
+let g:netrw_dirhist_8='/home/zayac/code/eq/EqCode/tests/parser_tests'
+let g:netrw_dirhist_9='/home/zayac/code/EqCode/tests/parser_tests'
