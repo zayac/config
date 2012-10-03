@@ -1,0 +1,1 @@
+/home/zayac/dwm/config.h

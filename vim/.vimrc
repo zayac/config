@@ -3,7 +3,7 @@
 
 " For multi-byte character support (CJK support, for example):
 "set fileencodings=ucs-bom,utf-8,cp936,big5,euc-jp,euc-kr,gb18030,latin1
-       
+
 set tabstop=8       " Number of spaces that a <Tab> in the file counts for.
 
 set softtabstop=2
@@ -73,16 +73,15 @@ set background=dark " When set to "dark", Vim will try to use colors that look
                     " good on a dark background. When set to "light", Vim will
                     " try to use colors that look good on a light background.
                     " Any other value is illegal.
- 
-set mouse=a         " Enable the use of the mouse.
 
+set mouse=a         " Enable the use of the mouse.
 
 filetype plugin indent off
 filetype indent off
 syntax on
 let tex_no_error=1
 
-
+autocmd FileType python set tabstop=2|set shiftwidth=2|set expandtab
 au BufNewFile,BufRead *.sac setlocal ft=sac
 
 set cinoptions+=c1,C1
@@ -93,4 +92,6 @@ let c_gnu=1
 
 map <F4> :TlistToggle<cr>
 map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
+
 "colors evening
+

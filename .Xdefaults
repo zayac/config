@@ -1,25 +1,78 @@
-urxvt*font:             xft:terminus:pixelsize=12
-#urxvt*font:             xft:tamsyn:pixelsize=12
-urxvt*termName:         rxvt
-urxvt*scrollBar:        false
-urxvt*perl-lib:         /usr/lib/urxvt/perl/
-urxvt*perl-ext-common:  default,matcher
-urxvt*urlLauncher:      /opt/mozilla/bin/firefox
-urxvt*matcher.button:   1
+: 96
 
-Xft*dpi:                96
-Xft*antialias:          true
-Xft*hinting:            full
+URxvt.font: xft:DejaVu Sans Mono-11
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.background: #121212
+URxvt.foreground: #999999
+URxvt.borderless: true
+URxvt.urgentOnBell: true
+URxvt.saveLines: 50000
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
 
+!black
+*color0:#3D3D3D
+*color8:#5E5E5E
+!red
+*color1:#8A2F58
+*color9:#CF4F88
+!green
+*color2:#287373
+*color10:#53A6A6
+!yellow
+*color3:#914E89
+*color11:#BF85CC
+!blue
+*color4:#395573
+*color12:#4779B3
+!magenta
+*color5:#5E468C
+*color13:#7F62B3
+!cyan
+*color6:#2B7694
+*color14:#47959E
+!white
+*color7:#899CA1
+Xft.dpi: 96
 
-URxvt.transparent:   true
-URxvt.tintcolor:     black
-URxvt.shading:       18 
- 
-URxvt.perl-ext:      default,url-select,clipboard
-URxvt.keysym.M-u:    perl:url-select:select_next
-URxvt.urlLauncher:   firefox
-URxvt.underlineURLs: true
+URxvt.font: xft:DejaVu Sans Mono-11
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.background: #121212
+URxvt.foreground: #999999
+URxvt.borderless: true
+URxvt.urgentOnBell: true
+URxvt.saveLines: 50000
+URxvt.scrollTtyOutput: false
+URxvt.scrollWithBuffer: true
+URxvt.scrollTtyKeypress: true
+
+!black
+*color0:#3D3D3D
+*color8:#5E5E5E
+!red
+*color1:#8A2F58
+*color9:#CF4F88
+!green
+*color2:#287373
+*color10:#53A6A6
+!yellow
+*color3:#914E89
+*color11:#BF85CC
+!blue
+*color4:#395573
+*color12:#4779B3
+!magenta
+*color5:#5E468C
+*color13:#7F62B3
+!cyan
+*color6:#2B7694
+*color14:#47959E
+!white
+*color7:#899CA1
+*color15:#C0C0C0
 
 !------------------------------------------------------------------!
 !                  xoria256 terminal color scheme                  !
